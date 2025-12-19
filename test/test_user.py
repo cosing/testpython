@@ -30,7 +30,7 @@ def test_random_name(random_str: str):
     [
         (-1, "Illegal age\n"),
         (0, "Illegal age\n"),
-        (17, "Minor"),
+        (17, "Minor\n"),
         (18, "Adult\n"),
         (60, "Elderly\n"),
         (100, "Elderly\n"),
