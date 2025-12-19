@@ -28,8 +28,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        uv pip install --system .[dev]
+        uv sync
 
     - name: Test with pytest
       run: |
-        pytest
+        uv run python -m pytest
